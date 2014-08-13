@@ -1,4 +1,5 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import url
+from django.conf.urls import patterns
 
 urlpatterns = patterns('',
     url(r'^$', 'templatesadmin.views.listing', name='templatesadmin-overview'),
